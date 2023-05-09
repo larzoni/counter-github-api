@@ -10,5 +10,5 @@ export const theme = {
   colorDecHover: "#000000",
   textPrimary: "#ccc",
   textSecondary: "#eee",
-  background: "linear-gradient(#FF69B4, #9198e5)",
+  background: "linear-gradient(to bottom, #FF69B4 40%, #9198e5 90%)",
 };

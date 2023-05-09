@@ -24,17 +24,18 @@ const useStyles = createUseStyles((theme) => ({
     justifyContent: "center",
     height: "30%",
     width: "95%",
-    marginTop: 40,
+    marginTop: 10,
     borderRadius: 30,
     overflow: "hidden",
     backdropFilter: "grayscale(0.3) brightness(1.4) blur(10px)",
     boxShadow:
       "0 0 20px rgba(26, 26, 26, 0.1), 0 0 40px rgba(26, 26, 26, 0.1), 0 0 80px rgba(26, 26, 26, 0.1)",
-    "@media (max-width: 414px)": {
+    "@media (max-width: 600px)": {
       flexDirection: "column",
       height: "auto",
       padding: "2rem",
       justifyContent: "space-evenly",
+      marginTop: 80,
     },
   },
 
@@ -66,8 +67,8 @@ function App() {
   return (
     // Here I render the App using the JSS styles
     <>
-      <Header />
       <div className={classes.App}>
+        <Header />
         <div className={classes.counterWrapper}>
           <DecrementButton onClick={handleDecrement} />
           <h1 className={classes.counterText}>Counter: {counter}</h1>

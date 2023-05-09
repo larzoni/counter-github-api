@@ -12,7 +12,7 @@ const useStyles = createUseStyles((theme) => ({
     alignItems: "center",
     textAlign: "center",
     width: "80%",
-    marginTop: 40,
+    marginTop: 30,
     padding: "20px 40px",
     borderRadius: 30,
     backdropFilter: "grayscale(0) brightness(1.6) blur(10px)",

@@ -11,7 +11,7 @@ const useStyles = createUseStyles((theme) => ({
     justifyContent: "center",
     backgroundColor: theme.colorIncHover,
     height: "1rem",
-    marginBottom: "-10px",
+    marginBottom: "-20px",
   },
   divider: {
     width: "100%",
@@ -23,7 +23,7 @@ const useStyles = createUseStyles((theme) => ({
     color: "white",
     fontSize: "5rem",
     textAlign: "center",
-    marginTop: "13rem",
+    marginTop: "15rem",
     //neon
     textShadow:
       "0 0 42px #f09," +
@@ -34,9 +34,9 @@ const useStyles = createUseStyles((theme) => ({
     // Apply the flicker animation to the title text
     animation: "$pulsate 0.11s ease-in-out infinite alternate",
     transition: "1s",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 850px)": {
       fontSize: "2.4rem",
-      marginTop: "6rem",
+      marginTop: "8rem",
     },
   },
   "@keyframes pulsate": {
